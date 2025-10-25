@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Rejestracja - Test</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Formularz rejestracyjny</h1>
+  <form id="regForm">
+    <label>Username: <input type="text" name="username" id="username" /></label><br/>
+    <label>Email: <input type="text" name="email" id="email" /></label><br/>
+    <label>Wiek: <input type="number" name="age" id="age" /></label><br/>
+    <label>Hasło: <input type="password" name="password" id="password" /></label><br/>
+    <label>Powtórz hasło: <input type="password" name="confirm" id="confirm" /></label><br/>
+    <button type="submit">Zarejestruj</button>
+  </form>
+
+  <div id="result"></div>
+
+  <hr/>
+  <a href="/users" target="_blank">Pokaż użytkowników (lista)</a>
+
+  <script src="/script.js"></script>
+</body>
+</html>
